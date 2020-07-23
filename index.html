@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tae-Toe</title>
+    <link rel="stylesheet" type="text/css"e href='style.css'/>
+</head>
+<body>
+    <table>
+        <tr>
+            <td onclick="drawMoveToBoard('00')" id="00"></td>
+            <td onclick="drawMoveToBoard('01')" id="01"></td>
+            <td onclick="drawMoveToBoard('02')" id="02"></td>
+        </tr>
+        <tr>
+            <td onclick="drawMoveToBoard('10')" id="10"></td>
+            <td onclick="drawMoveToBoard('11')" id="11"></td>
+            <td onclick="drawMoveToBoard('12')" id="12"></td>
+        </tr>
+        <tr>
+            <td onclick="drawMoveToBoard('20')" id="20"></td>
+            <td onclick="drawMoveToBoard('21')" id="21"></td>
+            <td onclick="drawMoveToBoard('22')" id="22"></td>
+        </tr>
+    </table>
+    <div id = "finish">
+        <div id = "text"></div>
+        <button id="restart" onclick="window.location.reload()">
+            New Game
+        </button>
+    </div>
+    <script src = "script.js"></script>
+</body>
+</html>
