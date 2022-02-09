@@ -5,4 +5,6 @@ You can access the game at: https://daniel-lesner.github.io/TicTacToe/
 To Do List\
 Add playing versus computer\
 Add menu where you can select type of game\
-Stop game when no winning moves are left
+Stop game when no winning moves are left\
+Add title\
+Show Points and offer reset option (reset is also activated when game mode is changed)\
