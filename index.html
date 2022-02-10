@@ -1,35 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tic-Tae-Toe</title>
-    <link rel="stylesheet" type="text/css"e href='lib/style.css'/>
+    <link rel="stylesheet" type="text/css" e href="lib/style.css" />
 </head>
+
 <body>
-    <table>
-        <tr>
-            <td onclick="drawMoveToBoard('00')" id="00"></td>
-            <td onclick="drawMoveToBoard('01')" id="01"></td>
-            <td onclick="drawMoveToBoard('02')" id="02"></td>
-        </tr>
-        <tr>
-            <td onclick="drawMoveToBoard('10')" id="10"></td>
-            <td onclick="drawMoveToBoard('11')" id="11"></td>
-            <td onclick="drawMoveToBoard('12')" id="12"></td>
-        </tr>
-        <tr>
-            <td onclick="drawMoveToBoard('20')" id="20"></td>
-            <td onclick="drawMoveToBoard('21')" id="21"></td>
-            <td onclick="drawMoveToBoard('22')" id="22"></td>
-        </tr>
-    </table>
-    <div id = "finish">
-        <div id = "text"></div>
-        <button id="restart" onclick="reload()">
-            New Game
-        </button>
-    </div>
-    <script src = "lib/script.js"></script>
+    <header>
+        <h1 class="title">
+            TIC TAC TOE
+            </h4>
+    </header>
+    <main>
+        <table>
+            <tr>
+                <td onclick="drawMoveToBoard('00')" id="00" class="cell"></td>
+                <td onclick="drawMoveToBoard('01')" id="01" class="cell"></td>
+                <td onclick="drawMoveToBoard('02')" id="02" class="cell"></td>
+            </tr>
+            <tr>
+                <td onclick="drawMoveToBoard('10')" id="10" class="cell"></td>
+                <td onclick="drawMoveToBoard('11')" id="11" class="cell"></td>
+                <td onclick="drawMoveToBoard('12')" id="12" class="cell"></td>
+            </tr>
+            <tr>
+                <td onclick="drawMoveToBoard('20')" id="20" class="cell"></td>
+                <td onclick="drawMoveToBoard('21')" id="21" class="cell"></td>
+                <td onclick="drawMoveToBoard('22')" id="22" class="cell"></td>
+            </tr>
+        </table>
+        <div id="finish">
+            <div id="text"></div>
+            <button id="restart" onclick="reload()">
+                New Game
+            </button>
+        </div>
+    </main>
+    <script src="lib/script.js"></script>
 </body>
+
 </html>

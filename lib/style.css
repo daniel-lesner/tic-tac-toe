@@ -3,6 +3,21 @@
     justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header {
+    align-items: center;
+    width: 100%;
+    display: flex;
+
+}
+
+.title {
+    margin-top: 20px;
+    color:rgba(65, 21, 10);
+    align-content: center;
+    align-items: center;
 }
 
 table {
@@ -11,8 +26,9 @@ table {
 
 td {
     border: 2px solid black;
-    height: 200px;
-    width: 200px;
+    white-space: nowrap;
+    height: 15vh;
+    width: 15vh;
     background-color: blanchedalmond;
 }
 
@@ -28,7 +44,7 @@ td:active, div:active {
 td {
     text-align: center;
     background-color: blanchedalmond;
-    font-size: 80px;
+    font-size: 10vh;
     color: rgb(65, 21, 10);
 }
 

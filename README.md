@@ -6,5 +6,4 @@ To Do List\
 Add playing versus computer\
 Add menu where you can select type of game\
 Stop game when no winning moves are left\
-Add title\
-Show Points and offer reset option (reset is also activated when game mode is changed)\
+Show Points and offer reset option (reset is also activated when game mode is changed)
